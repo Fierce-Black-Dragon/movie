@@ -1,0 +1,40 @@
+/* movie card */
+.movie{
+background: hsla(208, 33%, 21%, 1);
+
+background: linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#243748", endColorstr="#4B749F", GradientType=1 );
+
+
+color: white;
+margin: 2rem auto;
+padding:2rem;
+height:10rem;
+align-items:center;
+ width:12rem ;
+    border-radius: 12px;
+
+
+
+
+
+
+}
+a{
+  text-decoration:none;
+}
+
+.dataD, .DisplayData{
+  text-align:justify;
+  margin:1rem auto;
+}
+.DisplayData{
+  display:flex;
+  justify-content:center;
+  
+}

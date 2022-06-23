@@ -1,0 +1,29 @@
+/*mobile frist ( nothing)  */
+.home{
+  text-align:center;
+}
+
+/*  tab view*/
+@media only screen and (min-width: 700px) {
+.moviesList{
+   display:grid;
+  grid-template-columns:repeat(2, 1fr);
+   grid-gap: 50px;
+}
+}
+
+
+@media only screen and (min-width: 850px) {
+.moviesList{
+   display:grid;
+  grid-template-columns:repeat(3, 1fr);
+}
+}
+
+/* Desktop */
+@media only screen and (min-width:1034px) {
+.moviesList{
+   display:grid;
+  grid-template-columns:repeat(4, 1fr);
+}
+}

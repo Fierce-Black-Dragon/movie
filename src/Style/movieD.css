@@ -1,0 +1,48 @@
+
+/* .fixedLink {
+  position: relative;
+}
+ */
+.fixedLink {
+position:relative;
+
+  
+}
+.fixedLink a{
+  position:fixed;
+  top:5px;
+  left:10px;
+   background:lightgary;
+  padding : 7px solid black;
+  padding :0.5rem;
+text-align:center;
+  height:max-content;
+  border-radius:10px;
+}
+
+.movieD{
+margin-top:1rem;
+ text-align:justify;
+  padding:2rem;
+height:100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 800px) {
+.movieD{
+font-size:1.2rem;
+  height:max-contnet;
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+}
+}
